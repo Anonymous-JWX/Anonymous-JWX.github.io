@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+
 body {
   background-color: rgb(186, 245, 240);
 }
 
 h1 {
-  font-family: "Freestyle Script", "Lucida Handwriting", "Comic Sans MS";
+  font-family: "Licorice", cursive;
   font-size: 5rem;
   text-align: center;
   margin-top: 2rem;
@@ -21,7 +23,7 @@ header {
   height: auto;
 
   text-align: center;
-  font-family: "Freestyle Script";
+  font-family: "Licorice", cursive;
 }
 
 header * {
@@ -71,7 +73,7 @@ header a:hover {
 .schoollist a {
   text-decoration: none;
   color: rgb(235, 83, 13);
-  font-family: "Freestyle Script", "Yu Mincho";
+  font-family: "Licorice", cursive, "Yu Mincho";
 }
 
 /* Subject ul */
@@ -101,7 +103,7 @@ header a:hover {
 .subjectlist a {
   text-decoration: none;
   color: blue;
-  font-family: "Freestyle Script";
+  font-family: "Licorice", cursive;
 }
 
 /* Youtube List*/
@@ -118,6 +120,6 @@ header a:hover {
 
 .youtubelist a {
   text-decoration: none;
-  font-family: "Freestyle Script";
+  font-family: "Licorice", cursive;
   color: blue;
 }
