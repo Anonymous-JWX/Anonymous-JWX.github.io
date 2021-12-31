@@ -7,7 +7,7 @@ body {
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
-  height: 100vh;
+  height: 100%;
 }
 
 @-webkit-keyframes gradient {
