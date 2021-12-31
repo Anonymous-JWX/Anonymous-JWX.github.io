@@ -1,11 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
 html,
 body {
-  background-color: rgb(186, 245, 240);
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h1 {
@@ -16,7 +42,6 @@ h1 {
   margin-bottom: 2rem;
   color: rgb(0, 0, 0);
   text-shadow: 0 0 0.2em rgb(32, 228, 235);
-  background-color: rgb(186, 245, 240);
 }
 
 header {
@@ -33,10 +58,6 @@ header {
 
 header * {
   display: inline;
-}
-
-header ul {
-  background-color: rgb(186, 245, 240);
 }
 
 header li {
