@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
-
+html,
 body {
   background-color: rgb(186, 245, 240);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -19,6 +23,7 @@ header {
   position: absolute;
   left: 0;
   right: 0;
+
   font-size: 2rem;
   height: auto;
 
