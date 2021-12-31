@@ -129,21 +129,42 @@ header a:hover {
 
 /*Back Button*/
 
-.backbtn {
-  position: fixed;
-  display: inline;
-  text-decoration: none;
-  background-color: rgb(255, 229, 79);
+.btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.3rem;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+
   font-size: 1.5rem;
-  padding: 0.5rem;
-  border-radius: 10%;
+  font-weight: 500;
+  line-height: 1;
+
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
   bottom: 50px;
   left: 50px;
   font-family: "Licorice", cursive;
 }
 
-.backbtn:hover {
-  color: red;
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.back {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.back:hover {
+  color: white;
+  box-shadow: inset red 0 0 50px 50px;
 }
 
 .bigger li {
