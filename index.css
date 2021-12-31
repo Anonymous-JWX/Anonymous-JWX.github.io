@@ -134,6 +134,7 @@ header a:hover {
   border-radius: 10%;
   bottom: 50px;
   left: 50px;
+  font-family: "Licorice", cursive;
 }
 
 .backbtn:hover {
