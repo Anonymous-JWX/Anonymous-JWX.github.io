@@ -28,8 +28,6 @@ header {
 
 header * {
   display: inline;
-
-  border-bottom: 20px;
 }
 
 header ul {
@@ -60,17 +58,17 @@ header a:hover {
 }
 
 /* School ul*/
-.schoollist {
+.centrelist {
   text-align: center;
   padding: 0rem;
 }
 
-.schoollist li {
+.centrelist li {
   font-size: 2rem;
   padding: 1rem;
 }
 
-.schoollist a {
+.centrelist a {
   text-decoration: none;
   color: rgb(235, 83, 13);
   font-family: "Licorice", cursive, "Yu Mincho";
@@ -122,4 +120,26 @@ header a:hover {
   text-decoration: none;
   font-family: "Licorice", cursive;
   color: blue;
+}
+
+/*Back Button*/
+
+.backbtn {
+  position: fixed;
+  display: inline;
+  text-decoration: none;
+  background-color: rgb(255, 229, 79);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 10%;
+  bottom: 50px;
+  left: 50px;
+}
+
+.backbtn:hover {
+  color: red;
+}
+
+.bigger li {
+  font-size: 5rem;
 }
