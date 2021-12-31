@@ -96,7 +96,7 @@ header a:hover {
 
 .centrelist a {
   text-decoration: none;
-  color: rgb(235, 83, 13);
+  color: rgb(9, 255, 0);
   font-family: "Licorice", cursive, "Yu Mincho";
 }
 
@@ -153,9 +153,9 @@ header a:hover {
 .btn {
   box-sizing: border-box;
   background-color: transparent;
-  border: 2px solid red;
+  border: 2px solid #151e11;
   border-radius: 0.3rem;
-  color: red;
+  color: #151e11;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -184,8 +184,8 @@ header a:hover {
 }
 
 .back:hover {
-  color: white;
-  box-shadow: inset red 0 0 50px 50px;
+  color: rgb(0, 255, 0);
+  box-shadow: inset #151e11 0 0 50px 50px;
 }
 
 .bigger li {
