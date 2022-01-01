@@ -1,6 +1,11 @@
 var quotes = [
-  "Don't worry about what anybody else is going to do. <br>The best way to predict the future is to invent it.  <br>-- Alan Kay",
-  "Keep away from people who try to belittle your ambitions. <br>Small people always do that, but the really great make you feel that you, too, <br>can become great. <br>-- Mark Twain",
+  "Don't worry about what anybody else is going to do. <br>\
+  The best way to predict the future is to invent it.  <br>\
+  -- Alan Kay",
+  "Keep away from people who try to belittle your ambitions. <br>\
+  Small people always do that, but the really great make you feel that you, too, <br>\
+  can become great. <br>\
+  -- Mark Twain",
   "To follow the path:<br>\
     look to the master,<br>\
     follow the master,<br>\
@@ -34,6 +39,16 @@ A journey of a thousand miles must begin with a single step.<br>\
   "We are the sum of our behaviours;<br>\
  excellence therefore is not an act but a habit.<br>\
 -- Aristotle",
+  "However beautiful the strategy, you should occasionally look at the results.<br>\
+-- Winston Churchill",
+  "Only two things are infinite, the universe and human stupidity.<br>\
+ And I'm not so sure about the former.<br>\
+-- Albert Einstein",
+  "The important thing is not to stop questioning.<br>\
+-- Albert Einstein",
+  "Whatever you can do, or dream you can, begin it.<br>\
+Boldness has genius, power, and magic in it.<br>\
+-- Goethe",
 ];
 
 function newQuote() {
