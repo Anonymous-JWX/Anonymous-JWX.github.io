@@ -191,7 +191,7 @@ header a:hover {
 
 /*Back Button*/
 
-.back {
+/* .back {
   position: fixed;
   bottom: 50px;
   left: 50px;
@@ -201,7 +201,7 @@ header a:hover {
 .back:hover {
   color: rgb(0, 255, 0);
   box-shadow: inset #151e11 0 0 50px 50px;
-}
+} */
 
 .bigger li {
   font-size: 5rem;
