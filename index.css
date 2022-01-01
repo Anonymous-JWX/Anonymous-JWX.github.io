@@ -314,6 +314,15 @@ header li a {
   color: #03e9f4;
 }
 
+@media screen and (max-width: 800px) {
+  .text {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5rem;
+  }
+}
+
 .QuoteGenerator {
   background: #000000;
 }
