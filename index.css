@@ -60,6 +60,11 @@ h1 {
   text-shadow: 0 0 0.2em rgb(32, 228, 235);
 }
 
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
 header {
   position: absolute;
   left: 0;
@@ -72,8 +77,17 @@ header {
   font-family: "Licorice", cursive;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    font-size: 2rem;
+  }
+}
+
 header * {
   display: inline;
+}
+header ul {
+  padding-inline-start: 0px;
 }
 
 header li {
@@ -84,6 +98,12 @@ header li {
   box-shadow: 5px 10px 10px;
   display: inline-flex;
   border-radius: 16%;
+}
+
+@media screen and (max-width: 800px) {
+  header li {
+    margin: 10px;
+  }
 }
 
 header li:hover {
