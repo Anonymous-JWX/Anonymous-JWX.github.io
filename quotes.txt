@@ -1,16 +1,6 @@
-Don't worry about what anybody else is going to do. The best way to
-predict the future is to invent it.
--- Alan Kay
 
-Premature optimization is the root of all evil (or at least most of it)
-in programming.
--- Donald Knuth
 
-Lisp has jokingly been called "the most intelligent way to misuse a
-computer". I think that description is a great compliment because it
-transmits the full flavor of liberation: it has assisted a number of our
-most gifted fellow humans in thinking previously impossible thoughts.
--- Edsger Dijkstra, CACM, 15:10
+
 
 Keep away from people who try to belittle your ambitions. Small people
 always do that, but the really great make you feel that you, too, can
@@ -32,13 +22,7 @@ only be learned from the hacker experience. This book shows you his
 great vision, and tells you the truth about the nature of hacking.
 -- Yukihiro "Matz" Matsumoto, creator of Ruby
 
-To follow the path:
-    look to the master,
-    follow the master,
-    walk with the master,
-    see through the master,
-    become the master.
--- Modern zen Poem
+
 
 No problem should ever have to be solved twice.
 -- Eric S. Raymond, How to become a hacker
@@ -178,8 +162,7 @@ An interpreter raises the machine to the level of the user program; a
 compiler lowers the user program to the level of the machine language.
 -- SICP
 
-Everything should be made as simple as possible, but no simpler.
--- Albert Einstein
+
 
 The great dividing line between success and failure can be expressed in
 five words: "I did not have time."
@@ -239,9 +222,7 @@ Men never do evil so completely and cheerfully as when they do it from
 religious conviction.
 -- Blaise Pascal (attributed)
 
-Everybody makes their own fun. If you don't make it yourself, it ain't
-fun -- it's entertainment.
--- David Mamet (as relayed by Joss Whedon)
+
 
 If we wish to count lines of code, we should not regard them as *lines
 produced* but as *lines spent*.
@@ -333,9 +314,7 @@ to be right. The former sometimes wins, but never the latter.
 What is truth?
 -- Pontius Pilate
 
-Life moves pretty fast. If you don't stop and look around once in a
-while, you could miss it.
--- Ferris Bueller
+
 
 Lisp is worth learning for the profound enlightenment experience you
 will have when you finally get it; that experience will make you a
@@ -376,9 +355,7 @@ longuer anything to add, but when there is no longuer anything to take
 away.
 -- Antoine de St Exupery.
 
-For the things we have to learn before we can do them, we learn by doing
-them.
--- Aristotle.
+
 
 There are many ways to avoid success in life, but the most sure-fire
 just might be procrastination.
@@ -428,8 +405,7 @@ you're ever going to extract any value from it is to use it. And if you
 don't have any immediate use for it, you probably never will.
 -- Paul Graham
 
-Only bad designers blame their failings on the users.
--- unknown
+
 
 Humans aren't rational -- they rationalize. And I don't just mean "some
 of them" or "other people". I'm talking about everyone. We have a "logic
@@ -604,9 +580,7 @@ You will remain a Great Programmer for only as long as you acknowledge
 that you are still a Terrible Programmer.
 -- Marc (http://kickin-the-darkness.blogspot.com/)
 
-If I tell you I'm good, you would probably think I'm boasting. If I tell
-you I'm no good, you know I'm lying.
--- Bruce Lee
+
 
 Let me try to get this straight: Lisp is a language for describing
 algorithms. This was JohnMcCarthy's original purpose, anyway: to build
@@ -717,9 +691,7 @@ being a master of the obvious is underrated.
 Jim Maloney is right: Work is an overrated activity
 -- Bob Sutton
 
-In theory, there’s no difference between theory and practice. But in
-practice, there is.
--- Albert Einstein
+
 
 Act from reason, and failure makes you rethink and study harder.
 Act from faith, and failure makes you blame someone and push harder.
@@ -781,8 +753,6 @@ In order to understand what another person is saying, you must assume
 that it is true and try to find out what it could be true of.
 -- George Miller
 
-A journey of a thousand miles must begin with a single step.
--- Lao­Tzu
 
 C’s great for what it’s great for.
 -- Ben Hoyts (micropledge)
@@ -1024,9 +994,6 @@ The problem is that small examples fail to convince, and large examples
 are too big to follow.
 -- Steve Yegge.
 
-We are the sum of our behaviours; excellence therefore is not an act but
-a habit.
--- Aristotle.
 
 The purpose of abstraction is not to be vague, but to create a new
 semantic level in which one can be absolutely precise.
