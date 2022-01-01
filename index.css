@@ -1,4 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Just+Me+Again+Down+Here&family=Kalam&family=Kristi&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital@1&display=swap");
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kristi', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; 
+*/
+
 html,
 body {
   margin: 0;
@@ -148,7 +164,7 @@ header a:hover {
   color: blue;
 }
 
-/*Back Button*/
+/*Button*/
 
 .btn {
   box-sizing: border-box;
@@ -159,27 +175,26 @@ header a:hover {
   cursor: pointer;
   display: flex;
   align-self: center;
-
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1;
-
   padding: 0.5rem 1rem;
   text-decoration: none;
   text-align: center;
-  position: fixed;
-  bottom: 50px;
-  left: 50px;
   font-family: "Licorice", cursive;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover {
   color: #fff;
   outline: 0;
 }
 
+/*Back Button*/
+
 .back {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
@@ -190,4 +205,142 @@ header a:hover {
 
 .bigger li {
   font-size: 5rem;
+}
+
+/*Quote Generator*/
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.quotebtn {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  display: inline-block;
+  padding: 20px 25px;
+  margin: 0px 0;
+  color: #03e9f4;
+
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 5px;
+  overflow: hidden;
+}
+
+.quotebtn:hover {
+  background: #03e9f4;
+  color: #151e11;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Kalam", cursive, "Ma Shan Zheng", cursive;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-bottom: 0%;
+  margin-right: 10%;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+  color: #03e9f4;
+}
+
+.QuoteGenerator {
+  background: #000000;
+}
+
+.quoteheading {
+  color: #03e9f4;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4;
+}
+/*.quotebtn:nth-child(1) {
+  filter: hue-rotate(270deg);
+}
+.quotebtn:nth-child(2) {
+  filter: hue-rotate(110deg);
+}*/
+
+.quotebtn span {
+  position: absolute;
+  display: block;
+}
+.quotebtn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+.quotebtn span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.quotebtn span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.quotebtn span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
 }
