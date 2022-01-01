@@ -1,6 +1,6 @@
 var quotes = [
-  "Don't worry about what anybody else is going to do. <br>The best way to predict the future is to invent it.  <br><strong>-- Alan Kay</strong>",
-  "Keep away from people who try to belittle your ambitions. <br>Small people always do that, but the really great make you feel that you, too, <br>can become great. <br><strong>-- Mark Twain</strong>",
+  "Don't worry about what anybody else is going to do. <br>The best way to predict the future is to invent it.  <br>-- Alan Kay",
+  "Keep away from people who try to belittle your ambitions. <br>Small people always do that, but the really great make you feel that you, too, <br>can become great. <br>-- Mark Twain",
   "To follow the path:<br>\
     look to the master,<br>\
     follow the master,<br>\
@@ -16,7 +16,8 @@ If you don't make it yourself, it ain't fun -- it's entertainment.<br>\
   "Life moves pretty fast.<br>\
  If you don't stop and look around once in a while, you could miss it.<br>\
 -- Ferris Bueller",
-  "For the things we have to learn before we can do them,<br> we learn by doing them.\
+  "For the things we have to learn before we can do them,<br>\
+   we learn by doing them.<br>\
 -- Aristotle.",
   "Only bad designers blame their failings on the users.<br>\
 -- Unknown",
