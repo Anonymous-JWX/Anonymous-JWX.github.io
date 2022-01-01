@@ -58,6 +58,8 @@ h1 {
   margin-bottom: 2rem;
   color: rgb(0, 0, 0);
   text-shadow: 0 0 0.2em rgb(32, 228, 235);
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -65,7 +67,71 @@ h1 {
     font-size: 2.5rem;
   }
 }
+
+/*Button*/
+
+.btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #151e11;
+  border-radius: 0.3rem;
+  color: #151e11;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Licorice", cursive;
+}
+
+.btn:hover {
+  color: #fff;
+  outline: 0;
+}
+
 header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 2rem;
+  height: auto;
+  text-align: center;
+}
+
+header ul {
+  padding-inline-start: 0px;
+}
+
+.homepagebtn {
+  text-decoration: none;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 2.2rem;
+  padding: 0.5rem 1rem;
+  border: solid 3px;
+  --color: rgb(229, 248, 53);
+  --hover: rgb(49, 35, 248);
+  color: var(--color);
+  border-color: var(--color);
+  transition: 0.25s;
+}
+
+.homepagebtn:hover,
+.homepagebtn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  border-color: var(--hover);
+  color: #fff;
+}
+
+/* header {
   position: absolute;
   left: 0;
   right: 0;
@@ -94,30 +160,30 @@ header li {
   margin: 20px;
   border: solid;
   padding: 10px;
-  background-color: rgb(0, 195, 255);
-  box-shadow: 5px 10px 10px;
+  background-color: transparent;
+  box-shadow: 5px 10px 10px; 
   display: inline-flex;
-  border-radius: 16%;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 800px) {
   header li {
-    margin: 10px;
+    margin: 30px 70px;
+    display: block;
   }
 }
 
 header li:hover {
+  color: white;
+}
+header li a:hover {
   color: rgb(238, 255, 0);
 }
 
 header li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
-
-header a:hover {
-  color: rgb(251, 255, 0);
-}
+} */
 
 /* School ul*/
 .centrelist {
@@ -182,31 +248,6 @@ header a:hover {
   text-decoration: none;
   font-family: "Licorice", cursive;
   color: blue;
-}
-
-/*Button*/
-
-.btn {
-  box-sizing: border-box;
-  background-color: transparent;
-  border: 2px solid #151e11;
-  border-radius: 0.3rem;
-  color: #151e11;
-  cursor: pointer;
-  display: flex;
-  align-self: center;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  text-align: center;
-  font-family: "Licorice", cursive;
-}
-
-.btn:hover {
-  color: #fff;
-  outline: 0;
 }
 
 /*Back Button*/
