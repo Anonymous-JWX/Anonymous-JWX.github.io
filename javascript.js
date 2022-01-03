@@ -70,7 +70,7 @@ Boldness has genius, power, and magic in it.<br>\
 -- Lebron James",
   "Happiness depends upon ourselves.<br>\
 -- Aristotle",
-  "May your choinces reflect your hopes , not your fears.<br>\
+  "May your choices reflect your hopes , not your fears.<br>\
 -- Nelson Mandela",
   "Some people have sugar in their lips but venoms in their hearts.",
   "If you want to live a happy life, tie it to a goal, not to people or things.<br>\
