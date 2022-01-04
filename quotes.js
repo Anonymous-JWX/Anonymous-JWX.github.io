@@ -1,19 +1,20 @@
 var quotes = [
-  "The best way to predict your future is to create it.<br>\
-  -- Abraham Lincoln",
-  "Keep away from people who try to belittle your ambitions. <br>\
+  '"The best way to predict your future is to create it."<br>\
+  -- Abraham Lincoln',
+  '"Keep away from people who try to belittle your ambitions. <br>\
   Small people always do that, but the really great make you feel that you, too, <br>\
-  can become great. <br>\
-  -- Mark Twain",
-  "To follow the path:<br>\
+  can become great." <br>\
+  -- Mark Twain',
+  '"To follow the path:<br>\
     look to the master,<br>\
     follow the master,<br>\
     walk with the master,<br>\
     see through the master,<br>\
-    become the master.<br>\
--- Modern zen Poem",
-  "Everything should be made as simple as possible, but no simpler.<br>\
--- Albert Einstein",
+    become the master."<br>\
+-- Modern zen Poem',
+  '"Everything should be made as simple as possible, but no simpler."<br>\
+-- Albert Einstein',
+  // from here
   "Everybody makes their own fun.<br> \
 If you don't make it yourself, it ain't fun -- it's entertainment.<br>\
 -- David Mamet (as relayed by Joss Whedon)",
@@ -86,6 +87,9 @@ Watch your character for it becomes your destiny.",
 but the way to redeem your past is not to run from it,<br>\
 but to try to understand it, and use it as a foundation to grow.<br>\
 -- Jay-Z",
+  "I fear not the man who has practiced 10, 000 kicks once,<br>\
+ but I fear the man who has practiced one kick 10, 000 times<br>\
+ -- Bruce Lee",
 ];
 
 function newQuote() {
