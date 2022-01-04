@@ -149,5 +149,5 @@ while everyone else believes the smile on your face.",
 
 function newQuote() {
   var randomnumber = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quoteDisplay").innerHTML = quotes[56];
+  document.getElementById("quoteDisplay").innerHTML = quotes[randomnumber];
 }
