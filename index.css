@@ -100,6 +100,7 @@ header {
 
 header ul {
   padding-inline-start: 0px;
+  text-decoration: none;
 }
 
 .homepagebtn {
@@ -202,6 +203,8 @@ header li a {
 
 .subjectlist {
   padding: 0rem;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .firstinlist {
@@ -220,6 +223,7 @@ header li a {
   border-bottom: 3px;
   border-style: solid;
   border-color: rgb(255, 0, 0);
+  text-decoration: none;
 }
 
 .subjectlist a {
@@ -227,6 +231,10 @@ header li a {
   color: blue;
   font-family: "Patrick Hand", cursive;
 }
+
+/* .japlist {
+  list-style-type: japanese-informal;
+} */
 
 /* Youtube List*/
 
