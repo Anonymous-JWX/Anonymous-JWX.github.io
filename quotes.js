@@ -128,9 +128,6 @@ It is the courage to continue that counts."<br>\
   '"I count him braver who overcomes his desires than him who conquers his enemies;<br>\
 for the hardest vicroty is over self."<br>\
 -- Aristotle',
-  '"True friedship is when two friends can walk in opposite directions,<br>\
-yet remain side by side."<br>\
--- Josh Grayson',
   "A true friend accepts who you are,<br>\
 but also helps you become who you should be.",
   "A good friend knows all your stories.<br>\
@@ -138,14 +135,22 @@ A best friend helped you create them.",
   "Rare as is true love,<br>\
 true friendship is rarer.",
   '"Many people will walk in and out of your life,<br>\
-but only true friends will leave footptints in your heart."<br>\
+but only true friends will leave footprints in your heart."<br>\
 -- Eleanor Roosevelt',
   "A true friend is someone who sees the pain in your eyes<br>\
 while everyone else believes the smile on your face.",
   "Friendship is born at that moment when one person says to another:<br>\
 'What! You too? I thought I was the only one.'",
+  "“请优先在乎在乎你的人。<br>\
+请优先考虑考虑你的人。<br>\
+请优先优待优待你的人。“<br>\
+-- 赵越洋",
+  "我有一剑， 不畏这天地苍穹，不畏这诸天神佛，不畏这世间一切。",
+  "世间有黑暗，我便一剑化清明。<br>\
+  天道有不公，我便一剑开天地。",
+  "剑要无惧无畏，方可无尽锋芒，无上强大。",
 ];
-// 57
+// 60
 
 function newQuote() {
   var randomnumber = Math.floor(Math.random() * quotes.length);
