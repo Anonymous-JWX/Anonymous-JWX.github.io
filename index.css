@@ -101,6 +101,7 @@ header {
 header ul {
   padding-inline-start: 0px;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .homepagebtn {
