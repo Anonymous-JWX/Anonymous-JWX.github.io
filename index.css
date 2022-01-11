@@ -192,6 +192,7 @@ header li a {
 .centrelist li {
   font-size: 2rem;
   padding: 1rem;
+  list-style-type: none;
 }
 
 .centrelist a {
@@ -247,6 +248,7 @@ header li a {
 .youtubelist li {
   font-size: 2.5rem;
   padding: 0.6rem;
+  list-style-type: none;
 }
 
 .youtubelist a {
