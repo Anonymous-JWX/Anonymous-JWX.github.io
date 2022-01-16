@@ -257,20 +257,6 @@ header li a {
   color: blue;
 }
 
-/*Back Button*/
-
-/* .back {
-  position: fixed;
-  bottom: 50px;
-  left: 50px;
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-}
-
-.back:hover {
-  color: rgb(0, 255, 0);
-  box-shadow: inset #151e11 0 0 50px 50px;
-} */
-
 .bigger li {
   font-size: 5rem;
 }
